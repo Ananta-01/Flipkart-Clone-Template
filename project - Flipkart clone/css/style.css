@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(0, 140, 255);
+    
+    
+}
+nav{
+    display: flex;
+}
+
+
+
+nav ul{
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+nav ul li {
+    list-style: none;
+    padding: 40px;
+
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: darkgrey;
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* width: 89px;
+    padding: 0px 23px; */
+}
+.logo img{
+    width: 89px;
+    padding: 0px 23px;
+}
+.container{
+    min-height: calc(100vh - 55px - 25px) ;
+}
+/* .slider {
+    background-color: white;
+    height: 300px;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    align-self: baseline;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img1 {
+    transform: translate(-35vw);
+    animation: slide3 5s 4s  forwards ; 
+}
+
+.img2 {
+    transform: translate(-77vw); 
+    animation: slide2 4s 2s forwards;
+    
+}
+
+.img3 {
+    transform: translate(-30vw);
+    animation: slide1 2s 2s  forwards ;
+
+
+}
+@keyframes slide1 {
+    0%{
+        transform: translate(-30vw);
+        
+    }
+    
+    100% {
+       transform: translate(50vw);                
+    }
+}
+@keyframes slide2 { 
+    0%{
+        transform: translate(-77vw);
+
+    }
+    50%{
+        transform: translate(5vw);
+        
+    }
+    100%{
+        transform: translate(100vw);
+    }
+} 
+@keyframes slide3 {
+    0%{
+        transform: translate(-35vw);
+
+    } 
+    50%{
+        transform: translate(35vw);
+
+    }
+    100%{
+        transform: translate(133vw);
+    }
+    
+} */
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.img{
+    width: 80vw;
+
+}
+.search input{
+    border-radius: 2px;
+    width: 30vw;
+}
+#searchbox{
+    width: 340px;
+position: relative;
+top: 15px;
+height: 20px;
+}
+.icon{
+    width: 13px;
+position: relative;
+right: 27px;
+top: 16px;
+}
+.card{
+    max-width: 94vw;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+.card h4{
+    font-size: 18px;
+line-height: 1.2;
+letter-spacing: 0.049em;
+font-weight: 300;
+font-style: normal;
+}
+.carditems{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 60px;
+}
+.cards{
+    background-color: rgb(209, 209, 209);
+    border: 0px solid black;
+    padding-top: 44px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+footer{
+    height: 25px;
+    background-color:rgb(7, 142, 253);
+    color: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}

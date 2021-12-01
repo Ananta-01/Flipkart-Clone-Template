@@ -1,0 +1,27 @@
+.textaligncenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: #cfcfcf;
+    position: relative;
+    top: 15px;
+    width: 57px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(60, 0, 255);
+
+}
+.my-1{
+    margin: 14px 0px;
+}
+.my-2 {
+    margin: 26px 22px;
+}
+.text-center{
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+@media screen and ( max-width:1000px ) {
+    body{
+        background-color: tomato;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+        height: 18px;
+        margin-bottom: -7px;
+    }
+    .search{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0px 7px 33px 22px;
+     
+        
+    }
+    .btn {
+        right: 7px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+    }
+    
+}
